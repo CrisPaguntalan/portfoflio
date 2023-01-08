@@ -167,12 +167,6 @@ body {
     padding: 10px;
 }
 
-/* .project_item {
-    background-color: #ffffff;
-    margin: 25px;
-    border-radius: 10px;
-} */
-
 /* FLIP CARD */
 
 .project_item {
@@ -239,22 +233,39 @@ body {
     transform: rotateY(180deg);
 }
 
-/* FLIP CARD */
-
+/* Contact Page */
 .contact {
-    padding-top: 10vh;
+    padding-top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: rgba(215, 66, 245, 0.5);
     color: white;
     border-bottom: #ffffff 2px solid;
 }
 
+.contact_container {
+    /* background-color: rgba(222, 184, 135, 0.434); */
+    margin-top: 5vh;
+    width: 70vw;
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
 
+.contact_container img {
+    width: 25px;
+    height: 25px;
+}
 
+.contact_container a img {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
 
 @media (max-width: 700px) {
     .projects_space {
@@ -276,8 +287,6 @@ body {
         font-size: 10px;
     }
 
-    /* 
-
     .about {
         padding-top: 7vh;
         height: 100vh;
@@ -291,6 +300,10 @@ body {
         font-size: 12px;
     }
 
+    .projects {
+        height: 200vh;
+    }
+
     .projects_space {
         margin-top: 5vh;
         display: grid;
@@ -298,6 +311,6 @@ body {
         width: 70vw;
         grid-template-columns: auto;
         padding: 10px;
-    } */
+    }
 }
 

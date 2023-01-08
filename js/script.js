@@ -17,3 +17,4 @@ function gotoContact() {
     const contactPage = document.getElementById("contactpage");
     contactPage.scrollIntoView();
 }
+
